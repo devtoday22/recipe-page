@@ -56,11 +56,11 @@ padding-top: 70px;
   flex-direction: column;
   gap: 10px;
   width: 80%;
+  margin-top: 3%;
   margin-right: auto;
   margin-left: auto;
   background-color: hsl(330, 100%, 98%);
   border-radius: 4px;
-  margin-top: 3%;
   padding: 28px;
   
 }
@@ -72,7 +72,6 @@ padding-top: 70px;
 }
 .preparation ul {
 
- 
   padding-left: 4%;
 }
 
@@ -83,7 +82,33 @@ padding-top: 70px;
   color: hsl(30, 10%, 34%);
   margin-top: 1%;
 }
+.ingredients {
 
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+
+}
+.ingredients h2 {
+
+  color: hsl(14, 45%, 36%);
+}
+.ingredients ul {
+
+
+  padding-left: 2%;
+}
+.ingredients li {
+
+ 
+  padding-left: 6px;
+}
 
 /* Mobile responsive */
 
