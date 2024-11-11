@@ -50,8 +50,38 @@ padding-top: 70px;
   font-weight: 400;
   
 }
+.preparation {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 4px;
+  margin-top: 3%;
+  padding: 28px;
+  
+}
+.preparation h2 {
+
+    font-size: large;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
+.preparation ul {
+
+ 
+  padding-left: 4%;
+}
+
+.preparation li {
 
 
+  padding-left: 1%;
+  color: hsl(30, 10%, 34%);;
+}
 
 
 /* Mobile responsive */
@@ -60,5 +90,11 @@ padding-top: 70px;
   .mainContainer {
 
    width: 90%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .coverImage {
+
+   padding-top: 50px;
   }
 }

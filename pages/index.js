@@ -32,6 +32,21 @@ export default function Home() {
             <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
           </div>
          </div>
+         {/* Preparation time part component */}
+         <div className={styles.preparation}>
+          <h2>Preparation time</h2>
+          <ul>
+            <li>
+              Total: Approximately 10 minutes
+              </li>
+              <li>
+              Preparation 5 minutes
+              </li>
+              <li>
+              Coocing 5 minutes
+              </li>
+          </ul>
+         </div>
       </main>
 
      
