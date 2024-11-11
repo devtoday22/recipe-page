@@ -89,13 +89,21 @@ padding-top: 70px;
 
 @media only screen and (max-width: 750px) {
   .mainContainer {
-
-   width: 90%;
+margin-top: 0;
+   width: 100%;
   }
 }
 @media only screen and (max-width: 750px) {
   .coverImage {
 
-   padding-top: 50px;
+   padding-top: 0;
+   width: 100%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .coverImage img {
+
+ border: 1px red;
+   width: 100%;
   }
 }
