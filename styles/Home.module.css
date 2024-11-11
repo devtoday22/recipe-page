@@ -1,0 +1,62 @@
+.mainContainer {
+
+
+  width: 50%;
+  margin-top: 6%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+}
+.coverImage {
+
+
+width: 90%;
+margin-right: auto;
+margin-left: auto;
+padding-top: 70px;
+
+}
+
+.coverImage img {
+
+  width: 90%;
+  height: auto;
+  display: block;
+
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 8px;
+}
+.introduce {
+
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 16px;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.introduce h1 {
+
+  font-weight: 600;
+}
+
+.introduce p {
+
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+
+/* Mobile responsive */
+
+@media only screen and (max-width: 800px) {
+  .mainContainer {
+   border: 1px red solid;
+  }
+}

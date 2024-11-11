@@ -1,9 +1,11 @@
 html,
 body {
-  max-width: 100vw;
+  max-width: 100%;
   overflow-x: hidden;
+  font-family: "Young Serif", serif;
+  background-color: hsl(30, 54%, 90%);
+ 
 }
-
 
 
 * {
