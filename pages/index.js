@@ -92,6 +92,11 @@ export default function Home() {
             </li>
           </ol>
          </div>
+         {/* Nutrition component part */}
+         <div className={styles.nutrition}>
+          <h2>Nutrition</h2>
+          <p>The table below shows nutritional values per serving without the additional fillings.</p>
+         </div>
 
 
       </main>

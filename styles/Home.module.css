@@ -120,6 +120,7 @@ padding-top: 70px;
   margin-top: 3%;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 30px;
   border-bottom: 1px solid hsl(30, 18%, 87%);
  
 }
@@ -136,6 +137,25 @@ padding-top: 70px;
 .instructions h2 {
 
   color: hsl(14, 45%, 36%);
+}
+
+.nutrition {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.nutrition h2 {
+
+  color: hsl(14, 45%, 36%);;
+}
+.nutrition p {
+
+  color: hsl(30, 10%, 34%);
 }
 
 /* Mobile responsive */
